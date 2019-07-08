@@ -1,0 +1,35 @@
+{
+  "author": "王伟",
+  "description": "",
+  "extension": null,
+  "generator": "site",
+  "isbn": "",
+  "links": {
+	"sharing": {
+	  "all": null,
+	  "facebook": null,
+	  "google": null,
+	  "twitter": null,
+	  "weibo": null
+	},
+	"sidebar": {
+	}
+  },
+  "output": null,
+  "pdf": {
+	"fontSize": 12,
+	"footerTemplate": null,
+	"headerTemplate": null,
+	"margin": {
+	  "bottom": 36,
+	  "left": 62,
+	  "right": 62,
+	  "top": 36
+	},
+	"pageNumbers": true,
+	"paperSize": "a4"
+  },
+  "plugins": [],
+  "title": "Digital Video Concepts",
+  "variables": {}
+}
