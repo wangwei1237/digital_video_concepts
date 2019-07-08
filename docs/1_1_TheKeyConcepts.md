@@ -20,12 +20,12 @@
 
 因此，如果无特殊说明，压缩/解压缩（*compression/decompression*）和编码/解码（*encoding/decoding*）通常表示的是一个意思。一些专业视频应用程序可能使用编码形式的未压缩视频，但这种情况相对较少。
 
-编解码器由编码器和解码器组成。视频编码器比视频解码器复杂得多。编码器通常需要做更多的信号处理操作，因此，设计高效的视频编码器至关重要。虽然视频编码标准规定了解码器比特流（*bitstream*）[^bitstream]的语法和语义，但编码器设计大多是开放的。
+编解码器由编码器和解码器组成。视频编码器比视频解码器复杂得多。编码器通常需要做更多的信号处理操作，因此，设计高效的视频编码器至关重要。虽然视频编码标准规定了解码器比特流（*bitstream*）[^1]的语法和语义，但编码器设计大多是开放的。
 
 第2章详细讨论了视频数据压缩，而重要的数据压缩算法和标准则安排在第3章。
 
 ### Noise Reduction
-尽管对数字视频进行压缩和处理是必需的，但是这种处理可能引入非预期的效果，这通常被称为失真或噪声。这些失真或噪声经常称为伪影（*visual artifacts*）[^visual_artifacts]。由于噪声会影响用户接收信号的保真度，相当于会影响终端用户可感知的视觉质量，因此视频信号处理需要将噪声最小化。模拟信号和数字信号的视频压缩均需要考虑信号降噪。
+尽管对数字视频进行压缩和处理是必需的，但是这种处理可能引入非预期的效果，这通常被称为失真或噪声。这些失真或噪声经常称为伪影（*visual artifacts*）[^2]。由于噪声会影响用户接收信号的保真度，相当于会影响终端用户可感知的视觉质量，因此视频信号处理需要将噪声最小化。模拟信号和数字信号的视频压缩均需要考虑信号降噪。
 
 在数字视频中，我们会遇到许多不同类型的噪声。这些噪声包括：
 * 来自传感器和视频捕获设备的噪声
@@ -35,7 +35,7 @@
 第4章将详细讨论各种类型的噪声。
 
 ### Visual Quality
-相对于原始信号而言，经过处理后的视频信号可能会存在感知上的差异（数据压缩阶段会产生信息丢失），而视觉质量则用来度量这种感知差异。视觉质量基本上是用户体验质量（*QoE*[^QoE]）的度量。 理想情况下，在编码系统中最小的信号损失才能实现最高的视觉质量。
+相对于原始信号而言，经过处理后的视频信号可能会存在感知上的差异（数据压缩阶段会产生信息丢失），而视觉质量则用来度量这种感知差异。视觉质量基本上是用户体验质量（*QoE*[^3]）的度量。 理想情况下，在编码系统中最小的信号损失才能实现最高的视觉质量。
 
 确定视觉质量对于分析和制定决策非常重要。视频质量的结果可以用于系统需求的说明文档，对视频服务和应用进行比较和排序，与其它的视频测量之间进行权衡等。
 
@@ -59,6 +59,6 @@
 
 因此，主要问题是功率或等效的能耗。功率优化旨在降低能耗，从而延长电池寿命。高速视频编码和处理对功率优化提出了进一步的挑战。因此，我们需要了解电源管理和优化的注意事项、方法和工具，第6章和第7章将对此进行具体介绍。
 
-[^bitstream]: bitstream: A sequence of bits that forms the representation of coded pictures and associated data forming one or more coded video sequences. Bitstream is a collective term used to refer either to a NAL unit stream or a byte stream. Rec. ITU-T H.264 (2007)/Cor.1 (01/2009), page 5
-[^visual_artifacts]: 伪影是指原本被扫描物体并不存在而在图像上却出现的各种形态的影像。[百度百科](https://baike.baidu.com/item/伪影/7002006)
-[^QoE]: Quality of Experience(QoE) is the degree of delight or annoyance of the user of an application or service. It results from the fulfillment of his or her expectations with respect to the utility and / or enjoyment of the application or service in the light of the user’s personality and current state. *Qualinet White Paper on Definitions of Quality of Experience (2012). European Network on Quality of Experience in Multimedia Systems and Services (COST Action IC 1003), Version 1.2, March 2013*
+[^1]: bitstream: A sequence of bits that forms the representation of coded pictures and associated data forming one or more coded video sequences. Bitstream is a collective term used to refer either to a NAL unit stream or a byte stream. Rec. ITU-T H.264 (2007)/Cor.1 (01/2009), page 5
+[^2]: 伪影是指原本被扫描物体并不存在而在图像上却出现的各种形态的影像。[百度百科](https://baike.baidu.com/item/伪影/7002006)
+[^3]: Quality of Experience(QoE) is the degree of delight or annoyance of the user of an application or service. It results from the fulfillment of his or her expectations with respect to the utility and / or enjoyment of the application or service in the light of the user’s personality and current state. *Qualinet White Paper on Definitions of Quality of Experience (2012). European Network on Quality of Experience in Multimedia Systems and Services (COST Action IC 1003), Version 1.2, March 2013*

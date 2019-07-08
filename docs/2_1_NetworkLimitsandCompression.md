@@ -1,0 +1,23 @@
+## Network Limits and Compression
+在综合业务数字网络（*ISDN*）出现之前，通常可用的网络为普通老式电话业务（*POTS*）。POTS基于模拟信号传输来传送语音呼叫。无处不在的电话网络意味着传真、调制解调器等通信服务会倾向于使用这些可用的模拟网络。ISDN可以使用数字网络传输语音信号和视频信号，但宽带ISDN（B-ISDN）标准化的延使得基于分组的局域网（如以太网）更加流行。现在，许多网络协议支持在有线或无线技术上传输图像或视频。表2-1列举了不同网络协议的码率和带宽能力。
+
+**表2-1**各种网络协议支持的带宽
+
+| 网络协议 | 带宽  |
+| --- | --- |
+|POTS| 2.4 kbps (ITU* V.27)<br /> 14.4 kbps (V.17)<br />28.8 kpbs (V.34)<br />33.6 kbps (V.34bis)|
+|DS 0|64kbps|
+|ISDN|64kbps (Basic Rate Interface)<br />144kbps (Narrow band ISDN)<br />|
+|DS 1|1.5–2Mbps (Primary Rate Interface)|
+|局域网|10Mbps|
+|宽带ISDN|100-200Mbps|
+|千兆以太网|1Gbps|
+> The ITU V-series international standards specify the recommendations for vocabulary and related subjects for radiocommuncation.
+
+在20世纪90年代，由于数字视频对数据速率的要求，利用POTS或ISDN传输原始数字视频数据非常困难；即便可以传输，成本也非常昂贵。 ITU-R 601格式1的原始数据速率约为165 Mbps，这超出了当时网络的能力。为了部分解决数据速率问题，CCITT2的第15专家组（SGXV）将公共图像格式（CIF）定义为与图像速率无关的公共图像参数值。CIF指定了许多图像速率，例如24Hz，25Hz，30Hz，50Hz和60 Hz。在30Hz时，分辨率为352×288的图像需要的数据速率降至约37Mbps，这符合DS 0网络的带宽要求，并且可能会让视频数据传输变为现实。
+
+随着计算能力的提高，多年来视频编码和处理操作变得越来越简单。这推动了对更高视频分辨率和数据速率的需求，从而可以获取更高的视觉质量。ITU-R建议书BT.601.3 BT.709.4和BT.20205一个接一个地支持具有越来越高分辨率的视频格式。多年来，这些建议也在不断发展。例如，针对高清电视（HDTV）的BT.709就在规范的第一部分定义了早期实现模拟高清电视的参数。但是，这些参数已经不再使用，因此BT. 709在第2部分包含基于方形像素（square pixel）CIF的HDTV系统参数。
+
+网络的不断发展，为当今行业的需求提供了支持。此外，压缩方法和技术也变得更加精细。
+
+

@@ -29,7 +29,7 @@
 	"pageNumbers": true,
 	"paperSize": "a4"
   },
-  "plugins": [],
+  "plugins": ["mathjax"],
   "title": "Digital Video Concepts",
   "variables": {}
 }
