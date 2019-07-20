@@ -15,7 +15,7 @@
     * [An Overview of Compression Techniques](docs/2_3_0_AnOverviewofCompressionTechniques.md)
         * [Data Structures and Concepts](docs/2_3_1_DataStructuresandConcepts.md)
         * [Chroma Subsampling](docs/2_3_2_ChromaSubsampling.md)
-        * [Reduction of Redundancy](2_3_3_ReductionofRedundancy.md)
+        * [Reduction of Redundancy](docs/2_3_3_ReductionofRedundancy.md)
         * [Entropy Coding](docs/2_3_4_EntropyCoding.md)
     * [Compression Techniques Cost-benefit Analysis](docs/2_4_0_CompressionTechniquesCostbenefitAnalysis.md)
     	* [Transform Coding Techniques](docs/2_4_1_TransformCodingTechniques.md)
