@@ -29,10 +29,17 @@
 ### Ringing Artifact（振铃效应）
 
 ###  Aliasing Artifacts（混叠效应）
+
 ### Jaggies（锯齿效应）
+
 ### Flickering Artifacts（闪烁效应）
 
 ### Other Image Artifacts
+在压缩视频中，还存在其它类型的可视误差，接下来将对其进行简单介绍。
+
+![](../images/4_10.png)
+
+**图4-10.**各种图像噪声的示例
 
 #### Corruption due to Transmission Error
 压缩比特流中的传输错误会导致在重建信号时产生数据损坏。传输错误还会破坏比特流的解析，导致图像的部分解码或解码的图像存在丢失块。在严重错误的情况下，解码器会在短时间内继续对损坏的图片进行更新，从而产生重影图像效果（*ghost image effect*）。重影效果会一直持续到下一个无错误的独立压缩帧到来为止。在露天电视信号中，重影是一种比较常见的效果。
