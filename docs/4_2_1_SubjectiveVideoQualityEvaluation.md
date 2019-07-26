@@ -88,12 +88,12 @@ ACR-HR方法消除了来自ACR评级的内容的一些影响，但程度小于�
 
 [^1]: anchor字面意思是锚，是个把船固定的东西。anchor在计算机视觉中有锚点或锚框，目标检测中常出现的anchor box为锚框，表示固定的参考框。
 
-[^2]: ITU-R BT.500-13: Methodology for the Subjective Assessment of the Quality of Television Pictures.
+[^2]: ITU-R BT.500-13: [Methodology for the Subjective Assessment of the Quality of Television Pictures](https://www.itu.int/rec/R-REC-BT.500/en).
 
-[^3]: ITU-T P.910: Subjective video quality assessment methods for multimedia applications.
+[^3]: ITU-T P.910: [Subjective video quality assessment methods for multimedia applications](https://www.itu.int/itu-t/recommendations/rec.aspx?rec=9317).
 
-[^4]: ITU-T P.913: Methods for the subjective assessment of video quality, audio quality and audiovisual quality of Internet video and distribution quality television in any environment. 
+[^4]: ITU-T P.913: [Methods for the subjective assessment of video quality, audio quality and audiovisual quality of Internet video and distribution quality television in any environment](https://www.itu.int/itu-t/recommendations/rec.aspx?rec=12775). 
 
-[^5]: ITU-T P.911: Subjective audiovisual quality assessment methods for multimedia applications.
+[^5]: ITU-T P.911: [Subjective audiovisual quality assessment methods for multimedia applications](https://www.itu.int/itu-t/recommendations/rec.aspx?rec=4538).
 
 [^6]: ITU-T P.910(C), 6.1, P12, 绝对等级评分法。 
