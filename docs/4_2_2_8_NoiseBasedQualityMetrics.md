@@ -1,2 +1,2 @@
-### Noise-Based Quality Metrics
-#### Noise Quality Measure
+## Noise-Based Quality Metrics
+### Noise Quality Measure
