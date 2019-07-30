@@ -20,7 +20,7 @@ $$\ref{式4-1}$$中，$$N$$是样本的数量，$$N-1$$用于确保RMSE的无偏
 * 用于视频处理系统和算法的基准测试。
 * 用于比较两个不同的视频系统解决方案。
 
-### Classification of Objective Video Quality Metrics（客观视频质量指标的分类）
+### Classification of Objective Video Quality Metrics
 可以根据视频质量评估算法需要的参考信息的数量将客观视频质量评估方法分成三类：完全参考（*FR, full reference*），半参考（*RR, reduced reference*）和无参考（*NR, no reference*）。其中，FR方法可进一步划分为如下几类：
 
 * 基于误差灵敏度的方法（*Error sensitivity based approaches*）
