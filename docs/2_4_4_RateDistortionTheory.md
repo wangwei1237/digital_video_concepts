@@ -1,2 +1,2 @@
-## Rate-Distortion Theory
-### Lossy Compression Aspects
+# Rate-Distortion Theory
+## Lossy Compression Aspects

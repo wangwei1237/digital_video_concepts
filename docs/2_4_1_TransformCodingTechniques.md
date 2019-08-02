@@ -1,4 +1,4 @@
-## Transform Coding Techniques
-### Discrete Cosine Transform
-### Quantization
-### Walsh-Hadamard and Other Transforms
+# Transform Coding Techniques
+## Discrete Cosine Transform
+## Quantization
+## Walsh-Hadamard and Other Transforms

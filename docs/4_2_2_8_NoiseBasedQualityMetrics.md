@@ -1,7 +1,7 @@
-## Noise-Based Quality Metrics
+# Noise-Based Quality Metrics
 还有一种质量评估方法不是通过评估信号的保真度，而是通过评估引入的噪声来评估视频的质量。
 
-### Noise Quality Measure
+## Noise Quality Measure
 在噪声质量测量（*NQM, noise quality measure*）[^38]中，劣化图像被建模为线性频率失真和注入加性噪声（*additive noise*）的原始图像。NQM认为这两种噪声源是独立的，并且解耦为两种质量测量：
 
 1. 频率失真导致的失真测量（*DM, distortion measure*）

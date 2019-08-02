@@ -1,7 +1,7 @@
-## Spatio-Temporal Approaches（时空方法）
+# Spatio-Temporal Approaches（时空方法）
 传统的FR客观质量指标没有考虑时间维度的失真，例如帧丢失（*frame drops*）或抖动（*jitter*）。时空（*spatio-temporal*）方法会考虑视频帧之间的运动信息，从而会捕获时间质量的劣化。因此，时空方法更适合于视频信号的质量评估。时空算法通常与HVS之间有很好地相关性。本节将介绍其中的一种方法：时空视频SSIM（*stVSSIM, spatio-temporal video SSIM*）。
 
-### Spatio-Temporal Video SSIM
+## Spatio-Temporal Video SSIM
 时空视频SSIM（stVSSIM）[^32]算法是一种基于运动的视频完整性评估（*MOVIE, motion-based video integrity evaluation*）[^33]的全参考的视频质量评估算法。MOVIE利用多尺度时空Gabor滤波器组来分解视频并计算运动矢量。但是，MOVIE具有高计算复杂性，这使得在实际应用中很难实现。因此，stVSSIM提出了一种新的时空度量指标来解决MOVIE的计算复杂性问题。在VQEG的全参考数据集上对stVSSIM算法进行了评估，并且发现stVSSIM算法与人类的感知具备很好的相关性。
 
 对于空间质量评估，stVSSIM使用单尺度结构相似性指数（*SS-SSIM, single-scale structural similarity index*），因为SS-SSIM与人类对视觉质量的感知有很好地相关性。对于时间质量评估，stVSSIM将SS-SSIM扩展到时空域并将其称为SSIM-3D。与MOVIE中使用的光流（*optical flow*）相反，SSIM-3D使用基于块的运动估计算法将运动信息融合到stVSSIM中。此外，SSIM-3D还引入了一种避免块运动估计的方法，从而降低了计算复杂度。

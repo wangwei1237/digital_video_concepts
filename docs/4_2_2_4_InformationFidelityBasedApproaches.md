@@ -1,7 +1,7 @@
-## Information Fidelity Based Approaches（基于信息保真度的方法）
+# Information Fidelity Based Approaches（基于信息保真度的方法）
 图像和视频通常会涉及自然场景，对于自然场景而言，需要使用统计模型来对其进行表征。真实世界的失真过程会干扰这些统计数据并使图像或视频信号不自然。这使研究人员将自然场景统计（*NSS, natural scene statistics*）模型与失真模型结合，以量化失真图像和参考图像之间共享的信息量。这种共享信息是信号保真度的一个方面，并且与视觉质量密切相关。与HVS误差敏感度和结构方法相比，统计方法（信息论中也有应用）不依赖于任何HVS参数，也可以产生具有竞争力的FRQA方法（最先进的QA方法相比）。视觉信息保真度（*VIF, visual information fidelity*）方法就是基于信息保真度的视频质量评估指标。
 
-### Visual Information Fidelity
+## Visual Information Fidelity
 VIF[^29]是基于NSS的图像保真度测量的信息理论标准。VIF测量可以量化大脑从参考图像中提取的信息。然后，利用NSS，HVS和图像失真模型来量化该信息的损失。最终发现，图像的视觉质量与失真图像中存在的相对图像信息密切相关，并且VIF方法优于现有的质量评估算法。此外，VIF的特征仅有一个HVS参数，便于训练和优化以提高性能。
 
 VIF利用NSS模型进行FR质量评估，并使用众所周知的高斯尺度混合（*GSM, Gaussian Scale Mixtures*）对小波域中的自然图像进行建模。 图像的小波分析对于自然图像建模是有用的。 GSM模型可以捕获自然图像的关键统计特征，例如自然图像中的线性依赖性。

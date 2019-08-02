@@ -1,7 +1,7 @@
-## Common Artifacts
+# Common Artifacts
  本节将介绍几种经常出现在各种图像和视频压缩应用中的视觉误差（visual artifacts）。
  
-### Blurring Artifact（模糊效应）
+## Blurring Artifact（模糊效应）
 图像模糊（*blurring*）指的是平滑图像的细节和边缘，模糊对于图像来说就是一个低通滤波器（*low-pass filter*）。模糊对象（*object*）看起来像是对象的镜头焦外成像，但是实际上模糊效果和镜头焦外成像是不同的。一般而言，用户更趋向于获取更清晰的图像，因此会极力避免模糊的产生。但是，有时候也会使用高斯模糊（*gaussian blurring*）来降低图像噪点或者增强图像在不同比例大小下的图像效果。通常，模糊会作为压缩之前的预处理操作，从而减少图像的高频信号来产生更有效的压缩。另外，边缘检测对于环境噪点非常敏感，因此，模糊在边缘检测算法中也很有用。图4-3展示了模糊的例子[^1]。
 
 ![](../images/4_3_left.png)
@@ -24,27 +24,27 @@
 
 通过显示器的隔行扫描和工作室的电视电影处理可能会导致运动速度的不规则。另外，对于快速运动的物体，数字视频中的压缩失真（*compression artifacts*）也可能带来额外的模糊。LCD固有的采样-保持（*sample-and-hold*）工作模式与人眼跟踪效应的综合效果决定了LCD在显示运动画面时会存在运动模糊。对于LCD显示器而言，运动模糊是一个较为严重的问题。在LCD显示器中，可以通过控制背光减少运动模糊的影响。
 
-### Block Boundary Artifact（块效应）
+## Block Boundary Artifact（块效应）
 
-### Ringing Artifact（振铃效应）
+## Ringing Artifact（振铃效应）
 
-###  Aliasing Artifacts（混叠效应）
+##  Aliasing Artifacts（混叠效应）
 
-### Jaggies（锯齿效应）
+## Jaggies（锯齿效应）
 
-### Flickering Artifacts（闪烁效应）
+## Flickering Artifacts（闪烁效应）
 
-### Other Image Artifacts
+## Other Image Artifacts
 在压缩视频中，还存在其它类型的可视误差，接下来将对其进行简单介绍。
 
 ![](../images/4_10.png)
 
 **图4-10.**各种图像噪声的示例
 
-#### Corruption due to Transmission Error
+## Corruption due to Transmission Error
 压缩比特流中的传输错误会导致在重建信号时产生数据损坏。传输错误还会破坏比特流的解析，导致图像的部分解码或解码的图像存在丢失块。在严重错误的情况下，解码器会在短时间内继续对损坏的图片进行更新，从而产生重影图像效果（*ghost image effect*）。重影效果会一直持续到下一个无错误的独立压缩帧到来为止。在露天电视信号中，重影是一种比较常见的效果。
 
-#### Image Noise
+## Image Noise
 每个像素的相机传感器包含一个或多个光敏光电二极管用于将入射光转换成电信号，电信号则被处理成图像的像素的颜色值。然而，这个过程并不总是完全可重复的，并且会存在一些统计差异。此外，即使没有入射光，传感器的电活动也可能产生一些信号。图像噪声则来源于这些非期望的信号和差异。这种噪声随每个像素和时间而变化，并随温度而增加。胶片颗粒也会导致图像噪声。数字图像中的噪声在均匀表面中最明显，例如在天空和阴影中的单色颗粒和彩色波。热像素噪声是另一种类型的噪声。热像素噪声因为持续一秒以上的长时间曝光而出现，并且显示为略大于单个像素的彩色点。然而，在现代相机中，热像素噪声越来越少。
 
 [^1]: https://aty.sdsu.edu/bibliog/latex/scan/blur.html.
