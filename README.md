@@ -19,3 +19,4 @@
 * 叶爱凤，github [@cysteen](https://github.com/cysteen)
 * 吴玉，github [@wy-xyz](https://github.com/wy-xyz)
 * 刘一卓，github [@GerenLiu](https://github.com/GerenLiu)
+* 孙晓洁，github[@webxiaojie](https://github.com/webxiaojie)
