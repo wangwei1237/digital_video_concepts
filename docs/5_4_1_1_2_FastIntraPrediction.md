@@ -1,0 +1,1 @@
+# Fast Intra Prediction
