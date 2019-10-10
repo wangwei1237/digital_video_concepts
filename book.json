@@ -30,6 +30,10 @@
 	"paperSize": "a4"
   },
   "plugins": ["katex"],
+  "pluginsConfig": {},
   "title": "Digital Video Concepts",
-  "variables": {}
+  "variables": {},
+  "theme-default": {
+        "showLevel": true
+    }
 }
