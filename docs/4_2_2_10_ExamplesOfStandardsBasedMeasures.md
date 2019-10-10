@@ -37,16 +37,16 @@ P.1202.2是一种无参考的视频质量指标。该算法的执行需要如下
 1. 提取视频的基本参数，例如：帧分辨率，帧级别的量化参数，帧的大小，帧的数量。
 2. 将这些基本参数聚合到图像级别，从而确定视频帧的复杂度。
 3. 将基本参数聚合到模型级别，以获得视频序列复杂度以及视频序列级别的量化参数。
-4. 利用$$\ref{式4-28}$$所示的质量评估模型来评估MOS。
+4. 利用$${4-28}$$所示的质量评估模型来评估MOS。
 
 $$
-    P.1202.2 \ MOS = f(frame \ QP, frame \ resolution, frame \ size, frame \ number) \tag{式4-28}\label{式4-28}
+    (4-28) \ P.1202.2 \ MOS = f(frame \ QP, frame \ resolution, frame \ size, frame \ number) 
 $$
 
 研究发现，P.1202.2算法的估计的MOS结果和VQEG JEG(*Joint Effort Group*)估计的MOS结果类似，均具有相似的皮尔逊线性相关系数（*Pearson linear correlation coefficient*）和斯皮尔曼等级相关系数（*Spearman ranked order correlation coefficient*）[^51]。这种线性关系如下所示：
 
 $$
-VQEG \ JEG \ MOS = -0.172 * frame \ QP + 9.249 \tag{式4-29}\label{式4-29}
+(4-29) \ VQEG \ JEG \ MOS = -0.172 * frame \ QP + 9.249
 $$
 
 但是，P.1202.2和VQEG JEG的预测结果逗比MS-SSIM(*multi-scale structural similarity method*，多尺度结构相似性)要差。研究还发现，P.1202.2模型并不能捕获压缩噪声（*compression artifacts*）。
