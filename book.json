@@ -17,7 +17,7 @@
   },
   "output": null,
   "pdf": {
-	"fontSize": 12,
+	"fontSize": 16,
 	"footerTemplate": null,
 	"headerTemplate": null,
 	"margin": {
@@ -29,11 +29,12 @@
 	"pageNumbers": true,
 	"paperSize": "a4"
   },
-  "plugins": ["katex"],
-  "pluginsConfig": {},
-  "title": "Digital Video Concepts",
-  "variables": {},
-  "theme-default": {
+  "plugins": ["katex", "toc"],
+  "pluginsConfig": {
+  	"theme-default": {
         "showLevel": true
     }
+  },
+  "title": "Digital Video Concepts",
+  "variables": {}
 }
