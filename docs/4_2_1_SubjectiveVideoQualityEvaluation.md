@@ -40,7 +40,7 @@ ACR使用下列的5种量级评价视频的总体质量：
 
 差异观测者(DV，differential viewer)分数在每个被试者/每个处理后的视频序列(PVS, processed video sequence)的基础上计算得出。通过下述公式，合适的隐参考(REF)被用于计算DV。
 
-$$ DV(PVS) = V(PVS) – V(REF) + 5 $$
+$$DV(PVS) = V(PVS) - V(REF) + 5$$
 
 其中V是观测者的ACR分数。
 
