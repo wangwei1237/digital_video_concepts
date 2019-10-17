@@ -195,11 +195,7 @@
     * [Case Study](docs/8_4_1_CaseStudy.md)
 * [Summary](docs/8_5_Summary.md)
 
-### 结论
-* [Conclusion](docs/9_0_Conclusion.md)
-* [Key Points and Observations](docs/9_1_KeyPointsandObservations.md)
-* [Considerations for the Future](docs/9_2_0_ConsiderationsfortheFuture.md)
-    * [Enhanced Tools and Metrics for Analysis](docs/9_2_1_EnhancedToolsandMetricsforAnalysis.md)
-    * [Improved Quality and Performance](docs/9_2_2_ImprovedQualityandPerformance.md)
-    * [Emerging Uses and Applications](docs/9_2_3_EmergingUsesandApplications.md)
-    * [Beyond Vision to the Other Senses](docs/9_2_4_BeyondVisiontotheOtherSenses.md)
+### 结语
+* [结语](docs/9_0_Conclusion.md)
+* [重点和结论](docs/9_1_KeyPointsandObservations.md)
+* [对未来的思考](docs/9_2_ConsiderationsfortheFuture.md)
