@@ -1,2 +1,3 @@
-# Rate-Distortion Theory
-## Lossy Compression Aspects
+# 率失真理论（*Rate-Distortion Theory*）
+
+## 有损压缩

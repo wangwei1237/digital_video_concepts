@@ -1,4 +1,4 @@
-# Parameters that Impact Video Quality
+# 影响视频质量的参数
 理解本节介绍的各种参数对最终的视觉质量产生的影响非常重要。特别是对于视频编码方案的基准测试，优化或比较分析而言，理解这些参数对视觉质量的影响尤其重要。
 
 ## Number of lines in the vertical display resolution（显示设备的垂直分辨率）

@@ -1,3 +1,3 @@
-# Compression Techniques: Cost-benefit Analysis
+# 压缩技术: 成本-收益分析
 在本节中，我们将讨论几种常用的视频压缩技术，并分析这些压缩算法的优缺点。
 

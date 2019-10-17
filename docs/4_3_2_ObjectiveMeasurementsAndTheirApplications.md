@@ -1,4 +1,4 @@
-# Objective Measurements and Their Applications
+# 客观测量及其应用
 客观测量在自动化环境中非常有用。例如，自动化比较两个视频编码器的质量。图4-16展示了使用全参考的客观视频质量指标进行编码器比较的流程图。
 
 ![](../images/4_16.png)
