@@ -61,7 +61,7 @@
 
 电源管理和优化是所有这些现有以及新设备和平台的主要关注点，其目标是延长电池的使用时长。 然而，无论是本质上还是因为特殊需要，许多应用程序特别耗电，例如即时二进制翻译。
 
-因此，主要问题是功率或等效的能耗。功率优化旨在降低能耗，从而延长电池寿命。高速视频编码和处理对功率优化提出了进一步的挑战。因此，我们需要了解电源管理和优化的注意事项、方法和工具，第6章和第7章将对此进行具体介绍。
+因此，主要问题是功率或等效的功耗。功率优化旨在降低功耗，从而延长电池寿命。高速视频编码和处理对功率优化提出了进一步的挑战。因此，我们需要了解电源管理和优化的注意事项、方法和工具，第6章和第7章将对此进行具体介绍。
 
 [^1]: bitstream: A sequence of bits that forms the representation of coded pictures and associated data forming one or more coded video sequences. Bitstream is a collective term used to refer either to a NAL unit stream or a byte stream. Rec. ITU-T H.264 (2007)/Cor.1 (01/2009), page 5
 [^2]: 伪影是指原本被扫描物体并不存在而在图像上却出现的各种形态的影像。[百度百科](https://baike.baidu.com/item/伪影/7002006)

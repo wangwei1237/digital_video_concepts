@@ -1,11 +1,11 @@
-# Combination of Low-Power States
+# 低功耗状态的组合
 表7-3列出了典型的将系统的低功耗状态和ACPI功耗状态组合而形成的典型的低功耗处理器。第6章介绍了ACPI功耗状态，因此此处仅添加S0iX的效果，以便能够解释的更加清楚。
 
 **表7-3.** 系统低功耗状态的定义
 
 
 | 状态 | 描述 |
-| --- | --- |
+| :--- | :--- |
 | G0/S0/PC0 | Full on. CPUs are active and are in package C0 state. |
 | G0/S0/PC7 | CPUs are in C7 state and are not executing with caches flushed; controllers can continue to access DRAM and generate interrupts; DDR can dynamically enter deep self-refresh with small wake-up latency. |
 | G0/S0 | Standby ready. CPU part of the SoC is not accessing DDR or generating interrupts, but is ready to go standby if the PMC wants to start the entry process to S0iX states. |
