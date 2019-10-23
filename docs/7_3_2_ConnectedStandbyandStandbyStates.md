@@ -1,4 +1,4 @@
-# Connected Standby and Standby States
+# 待机状态
 Connected Standby（CS）模仿智能手机的电源模型，以在PC上提供即时开/关的用户体验。在Windows 8以及更高版本中，Connected Standby是低功耗状态，CS在保持与Internet连接的同时使用极低的功耗。CS使得系统可以连接到适当的可用网络，从而使得应用程序无需用户干预也能够保持更新或获取通知。传统睡眠状态（*Sleep state*）（S3）的唤醒的等待时间在2s+，而休眠（*Hibernate*）（S4）可能需要无限长的时间，但是支持CS的移动设备可以在500ms以内恢复系统。
 
 当系统进入CS时，操作系统会关闭除了保留DRAM内容所需的最低要求外的大多数硬件。但是，网络接口控制器（*NIC，Network Interface Controller*）仍然可以获取一点点的电量，使其可以扫描接受到的数据包并匹配特殊的唤醒模式。为了保留网络连接，NIC将根据需要唤醒操作系统。操作系统还会每隔几个小时自主唤醒以更新其DHCP。因此，即使NIC在大部分时间都处于关机状态，系统仍可以保持其第2层和第3层的连接性。

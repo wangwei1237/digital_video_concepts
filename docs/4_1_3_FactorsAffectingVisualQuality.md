@@ -1,4 +1,4 @@
-# Factors Affecting Visual Quality
+# 影响视觉质量的因素
 数字视频信号处理过程中的信息丢失而导致的视觉误差（*visual artifacts*）通常会降低可感知的视觉质量。除了之前提到的视觉误差之外，还有其它的重要因素会影响视觉质量，接下来会一一介绍。
 
 ## Sensor noise and pre-filtering（传感器噪声&预过滤）

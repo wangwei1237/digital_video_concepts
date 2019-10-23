@@ -1,10 +1,10 @@
-# Typical Media Usage on Low-Power Platforms
+# 低功耗平台上典型的媒体应用
 低功耗计算平台涵盖了广泛的设备和应用程序。无论是否涉及到多媒体，所有这些设备和应用程序在没有使用或仅部分使用时都需要节省电量。表7-1列举了一些低功耗平台的示例。
 
 **表7-1.** 低功耗平台举例
 
 | 领域 | 举例 | 特殊需求 |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Computing on the go | Smartphones, tablets, netbooks, wearable devices | Small form factor and limited storage capabilities; minimum heat dissipation and special cooling requirements; reduced memory bandwidth and footprint; multiple concurrent sessions; hardware acceleration for media and graphics; sensors; real-time performance; extended battery life |
 | Medical equipment | Imaging systems, diagnostic devices, point of care terminals and kiosks, patient monitoring system | Amenable to sterilization; secure, stable and safe to health; resistant to vibration or shock; lightweight and portable; high-quality image capture and display capability; fanless cooling support, etc. |
 | Industrial control systems | Operator-controlled centralized controller of field devices | Special I/O requirements, vibration and shock withstanding capabilities, variety of thermal and cooling requirements, ranging from fanless passive heat sink to forced air, etc. |

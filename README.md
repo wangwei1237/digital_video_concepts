@@ -15,8 +15,7 @@
 
 * 王伟（17哥），github [@wangwei1237](https://github.com/wangwei1237)
 * 木子小兀，github [@muzixiaowu](https://github.com/muzixiaowu)
-* 杨光，github [@yangguang10](https://github.com/yangguang10)
-* 叶爱凤，github [@cysteen](https://github.com/cysteen)
-* 吴玉，github [@wy-xyz](https://github.com/wy-xyz)
 * 刘一卓，github [@GerenLiu](https://github.com/GerenLiu)
 * 孙晓洁，github[@webxiaojie](https://github.com/webxiaojie)
+* 吴玉，github [@wy-xyz](https://github.com/wy-xyz)
+* 杨光，github [@yangguang10](https://github.com/yangguang10)

@@ -1,4 +1,4 @@
-# System Configurations
+# 系统配置
 有一些可配置的系统参数会在不同程度上影响工作负载的性能，例如视频编码速度。接下来会对这些参数进行介绍。
 
 ## Number of cores（CPU/GPU的核数）

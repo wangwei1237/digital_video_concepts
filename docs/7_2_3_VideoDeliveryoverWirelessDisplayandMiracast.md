@@ -1,4 +1,4 @@
-# Video Delivery over Wireless Display and Miracast
+# 视频分发
 在使用无线显示（WiDi）和Miracast进行视频传输的过程中，用设备的Wi-Fi把从本地显示器捕获的编码的屏幕内容流式的传输到远程HDTV或监视器。WiDi也支持无线传输所关联的音频内容。可以利用视频和音频编码的硬件加速功能为远程显示设备生成封装在Wi-Fi数据包中的音频-视频流，该远程设备会连接一个WiDi适配器，并且该视频流可在通过peer-to-peer链接传输。由于无线局域网（WLAN）的多角色支持，因此多个连接可能同时在无线访问点上可用，从而为WiDi对等连接以及与Internet的专用连接（同时共享该连接）提供服务频率。如下所述，多角色允许以克隆或多任务模式浏览Internet。利用WiDi的数字版权管理（DRM）协议保护视频播放或浏览Internet。第6章概述了WiDi的完整解决方案和Miracast的行业标准。
 
 WiDi支持两种主要的使用模式：
