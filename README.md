@@ -10,6 +10,8 @@
 
 在线预览：https://wangwei1237.gitbook.io/digital_video_concepts
 
+本项目采用gitbook方式编写，可以利用gitbook将该项目打包成静态网页格式或者PDF
+格式，具体可以参见：[gitbook教程](https://einverne.github.io/gitbook-tutorial/output/static.html)。
 
 译者信息：
 
@@ -19,3 +21,4 @@
 * 孙晓洁，github[@webxiaojie](https://github.com/webxiaojie)
 * 吴玉，github [@wy-xyz](https://github.com/wy-xyz)
 * 杨光，github [@yangguang10](https://github.com/yangguang10)
+
