@@ -17,5 +17,3 @@
 <br>
 
 在Vmin区域，功率下降的速度不如频率快。 当动态功率随频率下降时，泄漏功率保持恒定。 另一方面，在电压定标范围内，功率的增加速度远快于频率，因为电压定标大致呈线性随着频率 动态功率随V2f上升而泄漏功率随V3大致上升。 泄漏功率仅取决于少量的泄漏电流，并且相对于频率遵循与电压曲线几乎相同的模式。
-
-[^7]: M. K. Bhandaru and E. J. Dehaemer, U. S. Patent No. US 20130346774, A1, 2013. Providing energy efficient turbo operation of a processor. Available at www.google.com/patents/ WO2013137859A1?cl=en.
