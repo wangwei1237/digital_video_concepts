@@ -103,4 +103,4 @@ $$
 
 [^18]:S. Akramullah, I. Ahmad, and M. Liou, “Optimization of H.263 Video Encoding Using a Single Processor Computer: Performance Tradeoffs and Benchmarking,” IEEE Transactions on Circuits and Systems for Video Technology 11, no. 8 (2001): 901–15.
 
-[^译者注释1]:因为一副图像中直流和低频区占大部分，高频区占小部分。这样，空间域的图像变换到频域或所谓的变换域，会产生相关性很小的一些变换系数，并可对其进行压缩编码，即所谓的变换编码.图像从空域变化到频域后，进行传输够起到压缩的作用
+[^译者注]:因为一副图像中直流和低频区占大部分，高频区占小部分。这样，空间域的图像变换到频域或所谓的变换域，会产生相关性很小的一些变换系数，并可对其进行压缩编码，即所谓的变换编码.图像从空域变化到频域后，进行传输够起到压缩的作用
