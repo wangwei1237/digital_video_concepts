@@ -105,7 +105,7 @@ H_{2}={1\over \sqrt{2}}
    1 & -1
   \end{matrix}
 \right],
-and H_{2n}=
+and \ \ H_{2n}=
 \left[
  \begin{matrix}
    H_{n} & H_{n} \\
