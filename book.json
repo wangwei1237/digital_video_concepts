@@ -13,6 +13,7 @@
 	  "weibo": null
 	},
 	"sidebar": {
+		"17哥的个人网站": "https://wangwei1237.gitee.io/"
 	}
   },
   "output": null,
@@ -29,10 +30,18 @@
 	"pageNumbers": true,
 	"paperSize": "a4"
   },
-  "plugins": ["katex", "toc"],
+  "plugins": ["katex", "toc", "tbfed-pagefooter", "cnzz"],
   "pluginsConfig": {
   	"theme-default": {
         "showLevel": true
+    },
+	"tbfed-pagefooter": {
+      "copyright":"Copyrights &copy wangwei"
+    },
+	"cnzz": {
+      "visible": true,
+      "style": "1",
+        "siteid": "1278605528"
     }
   },
   "title": "Digital Video Concepts",
