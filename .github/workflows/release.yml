@@ -55,10 +55,10 @@ jobs:
           asset_path: digital_video_concepts.tar.gz
           asset_name: digital_video_concepts.tar.gz
           asset_content_type: application/octet-stream
-      #- name: trigger the wangwei1237.github.io_src deploy
-        #run: | 
-          #curl -X POST \
-          #-H "Accept: application/vnd.github.v3+json" \
-          #-H "Authorization: token ${{ secrets.TOKEN }}" \
-          #https://api.github.com/repos/wangwei1237/wangwei1237.github.io_src/dispatches \
-          #-d '{"event_type":"update"}'
+      - name: trigger the wangwei1237.github.io_src deploy
+        run: | 
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.TOKEN }}" \
+          https://api.github.com/repos/wangwei1237/wangwei1237.github.io_src/dispatches \
+          -d '{"event_type":"update"}'
