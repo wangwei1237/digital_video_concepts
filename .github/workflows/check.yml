@@ -1,0 +1,33 @@
+name: Build GitBook
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      MY_SECRET   : ${{secrets.GH_ACCESS_TOKEN}}
+
+    steps:
+      - name: Setup Node.js 10.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: "10.22.0"
+      - name: Setup gitbook
+        run: | 
+          npm install -g npm
+          npm install -g gitbook-cli
+      - name: Checkout main source
+        uses: actions/checkout@v2
+      - name: Build the book
+        working-directory: ${{ github.workspace }}
+        run: |
+          mkdir node_modules && cd node_modules && npm install gitbook-plugin-sitemap-general && cd .. 
+          gitbook install
+          cp misc/tbfed-pagefooter_index.js node_modules/gitbook-plugin-tbfed-pagefooter/index.js
+          gitbook build

@@ -30,7 +30,18 @@
 	"pageNumbers": true,
 	"paperSize": "a4"
   },
-  "plugins": ["katex", "toc", "tbfed-pagefooter", "cnzz"],
+  "plugins": [
+	  "katex", 
+	  "toc", 
+	  "tbfed-pagefooter", 
+	  "cnzz",
+	  "sitemap-general",
+	  "edit-link",
+	  "back-to-top-button",
+	  "github-buttons@2.1.0",
+	  "github",
+      "-highlight", "prism", "prism-themes"
+	],
   "pluginsConfig": {
   	"theme-default": {
         "showLevel": true
@@ -42,6 +53,26 @@
       "visible": true,
       "style": "1",
         "siteid": "1278605528"
+    },
+	"sitemap-general": {
+		"prefix": "https://wangwei1237.gitee.io/digital_video_concepts/"
+	},
+	"github": {
+		"url": "https://github.com/wangwei1237/digital_video_concepts"
+	},
+	"edit-link": {
+		"base": "https://github.com/wangwei1237/digital_video_concepts/edit/master",
+		"label": "在线编辑"
+	},
+	"github-buttons": {
+		"repo": "wangwei1237/digital_video_concepts",
+		"types": ["star"],
+		"size": "small"
+	},
+    "prism": {
+        "css": [
+            "prism-themes/themes/prism-ghcolors.css"
+        ]
     }
   },
   "title": "Digital Video Concepts",
