@@ -61,4 +61,4 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: token ${{ secrets.TOKEN }}" \
           https://api.github.com/repos/wangwei1237/wangwei1237.github.io_src/dispatches \
-          -d '{"event_type":"update"}'
+          -d '{"event_type":"update", "client_payload":{"from": "${{ github.repository }}", "msg": "${{ github.event.head_commit.message }}"}}'
